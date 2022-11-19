@@ -7,7 +7,7 @@ import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@
 })
 export class TitleComponent implements OnInit, OnChanges, OnDestroy {
 
-  @Input() public title:string = "Bem vindo!";
+  @Input() public title: string = "Bem vindo!";
 
   constructor() { }
 
